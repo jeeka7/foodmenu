@@ -24,10 +24,9 @@ with st.form("my_form"):
 
 st.write("Outside the form")
 
-
+food = ['Green', 'Yellow', 'Red', 'Blue']
 options = st.multiselect(
      'What you want to eat at arts faculty ?',
-     ['Green', 'Yellow', 'Red', 'Blue'],
-     ['Yellow', 'Red'])
+     food)
 
 st.write('You selected:', options)
