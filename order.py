@@ -23,3 +23,11 @@ with st.form("my_form"):
         st.write("slider", slider_val, "checkbox", checkbox_val)
 
 st.write("Outside the form")
+
+
+options = st.multiselect(
+     'What you want to eat at arts faculty ?',
+     ['Green', 'Yellow', 'Red', 'Blue'],
+     ['Yellow', 'Red'])
+
+st.write('You selected:', options)
