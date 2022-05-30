@@ -1,10 +1,9 @@
 import streamlit as st
+import numpy as np
+import pandas as pd
 
-st.write('This is a title')
+chart_data = pd.DataFrame(
+     np.random.randn(20, 3),
+     columns=['a', 'b', 'c'])
 
-food = ['Aloo Patty', 'Veg Roll', 'Cold Coffee', 'Paneer Patty']
-options = st.multiselect(
-     'What you want to eat at arts faculty ?',
-     food)
-
-st.write('You selected:', options)
+st.line_chart(chart_data)
