@@ -1,5 +1,6 @@
 import streamlit as st
 
+st.title('This is a title')
 
 food = ['Green', 'Yellow', 'Red', 'Blue']
 options = st.multiselect(
