@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.header('This is a title')
+st.write('This is a title')
 
 food = ['Aloo Patty', 'Veg Roll', 'Cold Coffee', 'Paneer Patty']
 options = st.multiselect(
