@@ -44,7 +44,7 @@ def main():
 	st.title("Romeo Kitchen !")
 
 	menu = ["Customer","Merchant Login"]
-	choice = st.sidebar.selectbox("Menu",menu)
+	choice = st.sidebar.selectbox("Who are you ?",menu)
 
 	if choice == "Customer":
 		st.subheader("Customer")
