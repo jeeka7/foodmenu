@@ -41,7 +41,7 @@ def view_all_users():
 def main():
 	"""Food Ordering App"""
 
-	st.title("Order your food faster !")
+	st.title("Romeo Kitchen !")
 
 	menu = ["Home","Merchant Login"]
 	choice = st.sidebar.selectbox("Menu",menu)
